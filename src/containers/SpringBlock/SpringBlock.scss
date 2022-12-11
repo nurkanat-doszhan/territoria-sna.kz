@@ -1,0 +1,18 @@
+.oldPrice {
+    position: relative;
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        top: 15px;
+        width: 90px;
+        height: 2px;
+        display: block;
+        background-color: #dc3545;
+        opacity: 0.8;
+        transform: rotate(10deg);
+    }
+    &::after {
+        content: '';
+        transform: rotate(-10deg);
+    }
+}

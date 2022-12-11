@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #0098d9;
+    .navbar-brand {
+        height: 50px;
+        padding: 10px 0;
+        margin-right: 50px;
+    }
+    .navbar-nav {
+        .nav-item {
+            margin-right: 25px;
+            .nav-link {
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+    }
+}
