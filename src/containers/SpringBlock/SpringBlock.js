@@ -90,7 +90,7 @@ const SpringBlock = () => {
                                 <div className="d-flex align-items-start">
                                     <p className="text-danger me-4 fs-5 fw-bold">от {value.newPrice}</p>
                                     <select onChange={(e) => console.log(sizeSelect(e))} className="form-select w-50 form-select-sm" aria-label="Default select example">
-                                        <option selected disabled>Выбираете размер</option>
+                                        <option defaultValue="Выберите размер" disabled>Выберите размер</option>
                                         <option data-new="47000" defaultValue="80*190">80*190</option>
                                         <option data-new="49000" defaultValue="90*190">90*190</option>
                                         <option data-new="52000" defaultValue="120*200">120*200</option>

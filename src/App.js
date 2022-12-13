@@ -7,6 +7,7 @@ import OrthopedicMattress from './containers/OrthopedicMattress/OrthopedicMattre
 import SpringBlock from './containers/SpringBlock/SpringBlock';
 import Test from './containers/Test/Test';
 import OurWork from './containers/OurWork/OurWork';
+import Faq from './containers/Faq/Faq';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OrthopedicMattress />
       <SpringBlock />
       <OurWork />
+      <Faq />
     </div>
   );
 }
