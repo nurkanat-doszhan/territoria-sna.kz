@@ -23,7 +23,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="d-flex flex-column align-items-center">
-                    <a href="tel:+77774884979" className='text-white fw-bold text-decoration-none mb-1'>8 776 946 00 22</a>
+                    <a href="tel:+77079460022" className='text-white fw-bold text-decoration-none mb-1'>8 707 946 00 22</a>
                     <button className="btn btn-warning btn-sm fw-semibold">Получить Консультацию</button>
                 </div>
             </div>

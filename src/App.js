@@ -8,6 +8,7 @@ import SpringBlock from './containers/SpringBlock/SpringBlock';
 import Test from './containers/Test/Test';
 import OurWork from './containers/OurWork/OurWork';
 import Faq from './containers/Faq/Faq';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SpringBlock />
       <OurWork />
       <Faq />
+      <Footer />
     </div>
   );
 }
