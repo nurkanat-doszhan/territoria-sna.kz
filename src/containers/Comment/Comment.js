@@ -9,11 +9,32 @@ const Comment = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      // {
+      //   breakpoint: 480,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1
+      //   }
+      // }
+    ]
   }
   return (
-    <div class="container section">
-      <h2 class="mb-5">Отзывы наших покупателей</h2>
+    <div className="container section">
+      <h2 className="mb-5">Отзывы наших покупателей</h2>
       <Slider {...settings}>
         <div><img width='90%' src="review-1.jpeg" alt="" /></div>
         <div><img width='90%' src="review-2.jpeg" alt="" /></div>
