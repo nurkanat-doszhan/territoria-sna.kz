@@ -2,7 +2,7 @@ import './Header.scss'
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
                 <img src="logo.png" className="navbar-brand" alt="logo" />
                 {/* <a className="navbar-brand" href="#">Navbar</a> */}
