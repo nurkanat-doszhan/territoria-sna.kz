@@ -1,3 +1,7 @@
+.badge {
+    z-index: 1;
+}
+
 .oldPrice {
     position: relative;
     &::before, &::after {

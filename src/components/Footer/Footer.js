@@ -2,7 +2,7 @@ import "./Footer.scss"
 
 const Footer = () => {
     return (
-        <footer className="navbar">
+        <footer className="navbar py-4">
             <div className="container">
                 <a><img src="logo.svg" className="me-5" /></a>
                 <ul className="d-flex text-white fw-semibold">
@@ -22,7 +22,7 @@ const Footer = () => {
                         <a className="nav-link p-2" href="#">Отзывы</a>
                     </li>
                 </ul>
-                <a href="tel:+77079460022" className='text-white fw-bold text-decoration-none mb-1'>8 707 946 00 22</a>
+                <a href="tel:+77079460022" className='text-white fw-bold text-decoration-none'>8 707 946 00 22</a>
             </div>
         </footer>
     )
