@@ -11,7 +11,7 @@ const BigSlider = () => {
         slidesToScroll: 1
     }
     return (
-        <div className='bigSlider'>
+        <div className='bigSlider' style={{paddingTop: '75px'}}>
             <Slider {...settings}>
                 <div>
                     <img width="100%" src="BigSlider1.jpg" alt="" />

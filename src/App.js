@@ -4,7 +4,8 @@ import Header from './components/Header/Header';
 import Benefits from './containers/Benefits/Benefits';
 import BigSlider from './containers/BigSlider/BigSlider';
 import OrthopedicMattress from './containers/OrthopedicMattress/OrthopedicMattress';
-import SpringBlock from './containers/SpringBlock/SpringBlock';
+import Mattress1 from './containers/Mattress/Mattress1';
+import Mattress2 from './containers/Mattress/Mattress2';
 import Test from './containers/Test/Test';
 import OurWork from './containers/OurWork/OurWork';
 import Faq from './containers/Faq/Faq';
@@ -20,7 +21,8 @@ function App() {
       <Benefits />
       <Test />
       <OrthopedicMattress />
-      <SpringBlock />
+      <Mattress1 />
+      <Mattress2 />
       <OurWork />
       <Comment />
       <Faq />

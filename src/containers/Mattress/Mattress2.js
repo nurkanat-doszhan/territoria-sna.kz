@@ -1,10 +1,10 @@
 import Slider from 'react-slick'
 import { useState } from "react"
-import './SpringBlock.scss'
+import './Mattress.scss'
 
 let tel = '7475087701'
 
-const SpringBlock = () => {
+const Mattress2 = () => {
     const settings = {
         dots: false,
         infinite: true,
@@ -16,44 +16,15 @@ const SpringBlock = () => {
     }
     const [state, setState] = useState([
         {
-            salesLeader: true,
-            imgMat1: "1.jpg",
-            imgMat2: "2.jpg",
-            title: 'Orto Max sale',
-            param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
-            param2: 'эласт. еврокаркас из ППУ',
-            param3: '110 кг',
-            param4: '18 см',
-            oldPrice: '',
-            newPrice: '47000 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Orto%20Max%20sale`,
-        },
-        {
-            salesLeader: false,
-            imgMat1: "1.jpg",
-            imgMat2: "2.jpg",
-            title: 'ORTO MAX SALE-1',
-            param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
-            param2: 'эласт. еврокаркас из ППУ',
-            param3: '120 кг',
-            param4: '18 см',
-            oldPrice: '49000 тг.',
-            newPrice: '39900 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20ORTO%20MAX%20SALE-1`,
-        },
-        {
-            salesLeader: false,
-            imgMat1: "1.jpg",
-            imgMat2: "2.jpg",
-            title: 'Матрас BALANCE',
-            param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
-            param2: 'эласт. еврокаркас из ППУ',
-            param3: '120 кг',
-            param4: '20 см',
-            oldPrice: '55900 тг.',
-            newPrice: '48500 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BALANCE`,
-        },
+            salesLeader: true, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            title: 'Матрас COMFORT LUXE',
+            param1: 'Независимый пружинный блок Multipocket, 1000 шт/спальное место',
+            param2: 'усиленный еврокаркас',
+            param3: '150 кг',
+            param4: '21-22 см',
+            oldPrice: '', newPrice: '97250 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20COMFORT%20LUXE`,
+        }
     ])
 
     const sizeSelect = (e) => {
@@ -63,12 +34,12 @@ const SpringBlock = () => {
 
     return (
         <div className="container section mb-5">
-            <h2>Независимый блок пружин</h2>
+            <h2>Матрасы премиум класса</h2>
             <div className="row mt-5">
                 {
                     state.map((value, index) => {
                         return (
-                            <div className="col-md-4" key={index}>
+                            <div className="col-md-4 mb-5" key={index}>
                                 {
                                     value.salesLeader ? <span className="badge text-bg-danger position-absolute">ЛИДЕР ПРОДАЖ</span> : ''
                                 }
@@ -114,4 +85,4 @@ const SpringBlock = () => {
     )
 }
 
-export default SpringBlock
+export default Mattress2

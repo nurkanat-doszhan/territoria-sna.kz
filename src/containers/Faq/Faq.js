@@ -82,7 +82,7 @@ const Faq = () => {
   ])
   return (
     <div className="container section mb-5">
-      <h2 class="mb-5">Часто задаваемые вопросы</h2>
+      <h2 className="mb-5">Часто задаваемые вопросы</h2>
       <div className="accordion">
         {
           state.map((value, index) => {
