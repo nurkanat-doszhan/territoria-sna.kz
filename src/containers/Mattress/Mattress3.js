@@ -4,7 +4,7 @@ import './Mattress.scss'
 
 let tel = '7475087701'
 
-const Mattress2 = () => {
+const Mattress3 = () => {
     const settings = {
         dots: false,
         infinite: true,
@@ -17,33 +17,33 @@ const Mattress2 = () => {
     const [state, setState] = useState([
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас COMFORT LUXE',
-            param1: 'Независимый пружинный блок Multipocket, 1000 шт/спальное место',
-            param2: 'усиленный еврокаркас',
-            param3: '150 кг',
-            param4: '21-22 см',
-            oldPrice: '', newPrice: '97250 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20COMFORT%20LUXE`,
+            title: 'Матрас BONNEL ECONOM',
+            param1: 'Пружинный блок Боннель, 200 шт/спальное место',
+            param2: 'Металлический каркас',
+            param3: '90 кг',
+            param4: '17 см',
+            oldPrice: '', newPrice: '33200 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BONNEL%20ECONOM`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас MEMORY SOFT',
-            param1: 'Независимый пружинный блок Pocket Spring,500 шт/спальное место',
-            param2: 'Эласт. из ППУ',
-            param3: '120 кг',
-            param4: '22 см',
-            oldPrice: '', newPrice: '81999 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20MEMORY%20SOFT`,
+            title: 'Матрас BONNEL-1',
+            param1: 'Пружинный блок Боннель, 210 шт/спальное место',
+            param2: 'Усиленный металлический каркас',
+            param3: '140 кг',
+            param4: '21 см',
+            oldPrice: '', newPrice: '42930 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BONNEL-1`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас PREMIUM SOFT',
-            param1: 'Независимый пружинный блок MultiPocket, 1000 шт/спальное место',
-            param2: 'усиленный еврокаркас из ППУ',
+            title: 'Матрас BONNEL-2',
+            param1: 'Пружинный блок Боннель, 250 шт/спальное место',
+            param2: 'Металлический каркас',
             param3: '160 кг',
-            param4: '25-26 см',
-            oldPrice: '', newPrice: '250000 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20PREMIUM%20SOFT`,
+            param4: '24 см',
+            oldPrice: '', newPrice: '47700 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BONNEL-2`,
         },
     ])
 
@@ -54,7 +54,7 @@ const Mattress2 = () => {
 
     return (
         <div className="container section py-5">
-            <h2>Матрасы премиум класса</h2>
+            <h2>Зависимый блок пружин</h2>
             <div className="row mt-5">
                 {
                     state.map((value, index) => {
@@ -105,4 +105,4 @@ const Mattress2 = () => {
     )
 }
 
-export default Mattress2
+export default Mattress3

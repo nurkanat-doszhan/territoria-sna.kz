@@ -2,7 +2,7 @@ import './OurWork.scss'
 
 const OurWork = () => {
     return (
-        <div className="container section mb-5">
+        <div className="container section py-5">
             <h2>Как мы работаем</h2>
             <div className="row mt-5 flex-row justify-content-center">
                 <div className="block">

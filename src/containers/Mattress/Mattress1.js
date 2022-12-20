@@ -113,7 +113,7 @@ const Mattress1 = () => {
     }
 
     return (
-        <div className="container section mb-5">
+        <div className="container section py-5">
             <h2>Независимый блок пружин</h2>
             <div className="row mt-5">
                 {
@@ -124,8 +124,8 @@ const Mattress1 = () => {
                                     value.salesLeader ? <span className="badge text-bg-danger position-absolute">ЛИДЕР ПРОДАЖ</span> : ''
                                 }
                                 <Slider {...settings}>
-                                    <img className="w-100 mb-4" src={value.imgMat1} />
-                                    <img className="w-100 mb-4" src={value.imgMat2} />
+                                    <img className="w-100 mb-4" src={value.imgMat1} alt="Mattress1" />
+                                    <img className="w-100 mb-4" src={value.imgMat2} alt="Mattress2" />
                                 </Slider>
                                 <h5 className="text-center mb-3">{value.title}</h5>
                                 <ul>
@@ -135,7 +135,7 @@ const Mattress1 = () => {
                                     <li>Общая высота: <b>{value.param4}</b></li>
                                 </ul>
                                 {
-                                    value.oldPrice.length == 0 ? '' :
+                                    value.oldPrice.length === 0 ? '' :
                                     <p className="oldPrice d-inline mb-1 fs-5 fw-semibold">{value.oldPrice}</p>
                                 }
                                 <div className="d-flex align-items-start">
@@ -154,7 +154,7 @@ const Mattress1 = () => {
                                 <div className="d-flex flex-wrap">
                                     <a className="btn btn-sm btn-warning fw-semibold me-2 mb-2" href={value.url}>Подробнее о товаре</a>
                                     <a className="btn btn-sm btn-success fw-semibold me-2 mb-2" href={value.url}>Заказать</a>
-                                    <a href={value.url}><img src="kaspi.png" width="132" /></a>
+                                    <a href={value.url}><img src="kaspi.png" width="132" alt="Kaspi" /></a>
                                 </div>
                             </div>
                         )

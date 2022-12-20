@@ -33,7 +33,7 @@ const Comment = () => {
     ]
   }
   return (
-    <div className="container section">
+    <div className="container section py-5">
       <h2 className="mb-5">Отзывы наших покупателей</h2>
       <Slider {...settings}>
         <div><img width='90%' src="review-1.jpeg" alt="" /></div>

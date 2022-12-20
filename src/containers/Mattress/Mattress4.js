@@ -4,7 +4,7 @@ import './Mattress.scss'
 
 let tel = '7475087701'
 
-const Mattress2 = () => {
+const Mattress4 = () => {
     const settings = {
         dots: false,
         infinite: true,
@@ -17,33 +17,33 @@ const Mattress2 = () => {
     const [state, setState] = useState([
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас COMFORT LUXE',
-            param1: 'Независимый пружинный блок Multipocket, 1000 шт/спальное место',
-            param2: 'усиленный еврокаркас',
-            param3: '150 кг',
-            param4: '21-22 см',
-            oldPrice: '', newPrice: '97250 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20COMFORT%20LUXE`,
+            title: 'Матрас Baby HAPPY',
+            param1: 'Монолит из пенополиуретана 9 см',
+            param2: 'Чехол: х/б жаккард стеганный с синтепоном',
+            param3: '50 кг',
+            param4: '10 см',
+            oldPrice: '', newPrice: '21000 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20Baby%20HAPPY`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас MEMORY SOFT',
-            param1: 'Независимый пружинный блок Pocket Spring,500 шт/спальное место',
-            param2: 'Эласт. из ППУ',
-            param3: '120 кг',
-            param4: '22 см',
-            oldPrice: '', newPrice: '81999 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20MEMORY%20SOFT`,
+            title: 'Матрас Baby COMFORT',
+            param1: 'Независимый блок пружин 250 шт на кв.м.',
+            param2: 'Чехол: х/б жаккард стеганный на синтепоне',
+            param3: '70 кг',
+            param4: '12 см',
+            oldPrice: '', newPrice: '28000 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20Baby%20COMFORT`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
-            title: 'Матрас PREMIUM SOFT',
-            param1: 'Независимый пружинный блок MultiPocket, 1000 шт/спальное место',
-            param2: 'усиленный еврокаркас из ППУ',
-            param3: '160 кг',
-            param4: '25-26 см',
-            oldPrice: '', newPrice: '250000 тг.',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20PREMIUM%20SOFT`,
+            title: 'Матрас Baby KING',
+            param1: 'Независимый блок пружин 250 шт на кв.м.',
+            param2: 'Периметр: эласт. еврокаркас из ППУ стеганный на синтепоне',
+            param3: 'до 100 кг',
+            param4: '13 см',
+            oldPrice: '', newPrice: '35000 тг.',
+            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20Baby%20KING`,
         },
     ])
 
@@ -54,7 +54,7 @@ const Mattress2 = () => {
 
     return (
         <div className="container section py-5">
-            <h2>Матрасы премиум класса</h2>
+            <h2>Детские матрасы</h2>
             <div className="row mt-5">
                 {
                     state.map((value, index) => {
@@ -70,7 +70,7 @@ const Mattress2 = () => {
                                 <h5 className="text-center mb-3">{value.title}</h5>
                                 <ul>
                                     <li>{value.param1}</li>
-                                    <li>Периметр: <b>{value.param2}</b></li>
+                                    <li>{value.param2}</li>
                                     <li>Нагрузка на сп. место: <b>{value.param3}</b></li>
                                     <li>Общая высота: <b>{value.param4}</b></li>
                                 </ul>
@@ -105,4 +105,4 @@ const Mattress2 = () => {
     )
 }
 
-export default Mattress2
+export default Mattress4
