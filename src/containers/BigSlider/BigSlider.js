@@ -13,7 +13,7 @@ const BigSlider = () => {
     return (
         <div className='bigSlider' style={{paddingTop: '75px'}}>
             <Slider {...settings}>
-                <div className="BigSlider">
+                <div className="BigSlider1">
                     <img width="100%" src="BigSlider1.jpg" alt="" />
                     <div className='btns position-absolute'>
                         <a className='btn btn-lg btn-warning me-2 fw-semibold' onClick={() => {alert()}}>Смотреть каталог</a>
