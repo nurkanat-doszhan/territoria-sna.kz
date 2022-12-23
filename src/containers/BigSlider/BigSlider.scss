@@ -99,9 +99,10 @@
 }
 
 @media (max-width: 1340px) {
-    .bigSlider .slick-next {
+    .bigSlider {
         .slick-slide {
             .BigSlider4 {
+                overflow: hidden;
                 img {
                     position: relative;
                     left: -145px;
