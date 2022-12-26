@@ -120,6 +120,7 @@ const Mattress1 = () => {
     // }, [mat])
 
     const sizeSelect = (e) => {
+        var si = e.target.value
         const size = [...mat]
         switch (e.target.value) {
             case "80*190":
@@ -157,7 +158,7 @@ const Mattress1 = () => {
             <div className="row mt-5">
                 {
                     mat.map((value, index) => {
-                        console.log(sizeSelect)
+                        console.log(sizeSelect(si))
                         return (
                             <div className="col-md-4 mb-5" key={index}>
                                 {
