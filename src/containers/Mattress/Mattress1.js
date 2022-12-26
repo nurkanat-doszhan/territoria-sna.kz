@@ -1,6 +1,7 @@
 import Slider from 'react-slick'
 import { useEffect, useState } from "react"
 import './Mattress.scss'
+import data from '../../data'
 
 let tel = '7475087701'
 
@@ -14,6 +15,9 @@ const Mattress1 = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     }
+    const [matressSize, setMatressSize] = useState([
+        ''
+    ])
     const [mat, setMat] = useState([
         {
             salesLeader: true, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -23,6 +27,7 @@ const Mattress1 = () => {
             param3: '110 кг',
             param4: '18 см',
             oldPrice: '', newPrice: '47000',
+            matressSize: '',
             prices: {
                 price1: '47000',
                 price2: '49000',
@@ -119,32 +124,37 @@ const Mattress1 = () => {
     //     sizeSelect()
     // }, [mat])
 
-    const sizeSelect = (e) => {
-        var si = e.target.value
+    const sizeSelect = (e, x) => {
         const size = [...mat]
         switch (e.target.value) {
             case "80*190":
-                size[0].newPrice = mat[0].prices.price1
+                size[x].newPrice = mat[x].prices.price1
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             case "90*190":
-                size[0].newPrice = mat[0].prices.price2
+                size[x].newPrice = mat[x].prices.price2
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             case "120*200":
-                size[0].newPrice = mat[0].prices.price3
+                size[x].newPrice = mat[x].prices.price3
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             case "140*200":
-                size[0].newPrice = mat[0].prices.price4
+                size[x].newPrice = mat[x].prices.price4
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             case "160*200":
-                size[0].newPrice = mat[0].prices.price5
+                size[x].newPrice = mat[x].prices.price5
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             case "180*200":
-                size[0].newPrice = mat[0].prices.price6
+                size[x].newPrice = mat[x].prices.price6
+                size[x].matressSize = e.target.value
                 setMat(size)
                 break;
             default:
@@ -158,11 +168,13 @@ const Mattress1 = () => {
             <div className="row mt-5">
                 {
                     mat.map((value, index) => {
-                        console.log(sizeSelect(si))
                         return (
                             <div className="col-md-4 mb-5" key={index}>
                                 {
-                                    value.salesLeader ? <span className="badge text-bg-danger position-absolute">ЛИДЕР ПРОДАЖ</span> : ''
+                                    value.salesLeader ?
+                                    <span className="badge text-bg-danger position-absolute">
+                                        ЛИДЕР ПРОДАЖ
+                                    </span> : ''
                                 }
                                 <Slider {...settings}>
                                     <img className="w-100 mb-4" src={value.imgMat1} alt="Mattress1" />
@@ -182,7 +194,7 @@ const Mattress1 = () => {
                                 <div className="d-flex align-items-start">
                                     <p className="text-danger me-4 fs-5 fw-bold">от {value.newPrice} тг.</p>
                                     <select className="form-select w-50 form-select-sm" aria-label="Default select example"
-                                        onChange={(e) => sizeSelect(e) }>
+                                        onChange={(e) => sizeSelect(e, index) }>
                                         <option defaultValue="Выберите размер" disabled>Выберите размер</option>
                                         <option defaultValue="80*190">80*190</option>
                                         <option defaultValue="90*190">90*190</option>
@@ -196,7 +208,7 @@ const Mattress1 = () => {
                                 <div className="d-flex flex-wrap">
                                     <a className="btn btn-sm btn-warning fw-semibold me-2 mb-2" href={value.url}>Подробнее о товаре</a>
                                     <a className="btn btn-sm btn-success fw-semibold me-2 mb-2"
-                                        href={`https://wa.me/${tel}?text=Здравствуйте! Меня интересует ${value.title} от ${value.newPrice} тг`}>Заказать</a>
+                                        href={`https://wa.me/${tel}?text=Здравствуйте! Меня интересует ${value.title} размер ${value.matressSize} от ${value.newPrice} тг`}>Заказать</a>
                                     <a href={value.url}><img src="kaspi.png" width="132" alt="Kaspi" /></a>
                                 </div>
                             </div>
