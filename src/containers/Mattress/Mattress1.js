@@ -21,7 +21,7 @@ const Mattress1 = () => {
     ])
     const [mat, setMat] = useState([
         {
-            salesLeader: true, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: true, imgMat1: "1.jpg", imgMat2: "2 orto max sale.jpg",
             title: 'Матрас Orto Max sale',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -48,7 +48,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20Orto%20Max%20sale`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 orto max sale-1.jpg",
             title: 'Матрас ORTO MAX SALE-1',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -75,7 +75,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20ORTO%20MAX%20SALE-1`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 BALANCE.jpg",
             title: 'Матрас BALANCE',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -102,7 +102,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 BALANCE HARD-3.jpg",
             title: 'Матрас BALANCE HARD-3',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -129,7 +129,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE%20HARD-3`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 BALANCE-P.jpg",
             title: 'Матрас BALANCE-P',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -156,7 +156,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE-P`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 DREAM ZONE.jpg",
             title: 'Матрас DREAM ZONE',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -183,7 +183,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20DREAM%20ZONE`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1 ENERGY.jpg", imgMat2: "2 ENERGY.jpg",
             title: 'Матрас ENERGY',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'Твердый ЕвроКаркас',
@@ -210,7 +210,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20ENERGY`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1 SOFT.jpg", imgMat2: "2 SOFT.jpg",
             title: 'Матрас SOFT',
             param1: 'Независимый пружинный блок Pocket Spring, 510 шт/спальное место',
             param2: 'Эластичный ЕвроКаркас',
@@ -231,7 +231,7 @@ const Mattress1 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20SOFT`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1 SUMMER PLUS.jpg", imgMat2: "2 SUMMER PLUS.jpg",
             title: 'Матрас SUMMER PLUS',
             param1: 'Независимый пружинный блок Pocket Spring, 500 шт/спальное место',
             param2: 'эласт. еврокаркас из ППУ',
@@ -302,7 +302,7 @@ const Mattress1 = () => {
     }
 
     return (
-        <div className="container section py-5" id="mat">
+        <div className="container section py-5 collection" id="mat">
             <h2>Независимый блок пружин</h2>
             <div className="row mt-5">
                 {
@@ -316,8 +316,8 @@ const Mattress1 = () => {
                                     </span> : ''
                                 }
                                 <Slider {...settings}>
-                                    <img className="w-100 mb-4" src={value.imgMat1} alt="Mattress1" />
-                                    <img className="w-100 mb-4" src={value.imgMat2} alt="Mattress2" />
+                                    <img className="mb-4" src={value.imgMat1} alt="Mattress1" />
+                                    <img className="mb-4" src={value.imgMat2} alt="Mattress2" />
                                 </Slider>
                                 <h5 className="text-center mb-3">{value.title}</h5>
                                 <ul>

@@ -1,8 +1,13 @@
 import './OurWork.scss'
 
 const OurWork = () => {
+    const style = {
+        backgroundImage: 'url(truck.png)',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center bottom -70px'
+    }
     return (
-        <div className="container section py-5">
+        <div className="container section py-5" style={style}>
             <h2>Как мы работаем</h2>
             <div className="row mt-5 flex-row justify-content-center">
                 <div className="block">

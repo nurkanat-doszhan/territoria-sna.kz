@@ -16,7 +16,7 @@ const Mattress4 = () => {
     }
     const [mat, setMat] = useState([
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 Baby HAPPY.jpg",
             title: 'Матрас Baby HAPPY',
             param1: 'Монолит из пенополиуретана 9 см',
             param2: 'Чехол: х/б жаккард стеганный с синтепоном',
@@ -37,7 +37,7 @@ const Mattress4 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20Baby%20HAPPY`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 Baby COMFORT.jpg",
             title: 'Матрас Baby COMFORT',
             param1: 'Независимый блок пружин 250 шт на кв.м.',
             param2: 'Чехол: х/б жаккард стеганный на синтепоне',
@@ -58,7 +58,7 @@ const Mattress4 = () => {
             url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20Baby%20COMFORT`,
         },
         {
-            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
+            salesLeader: false, imgMat1: "1.jpg", imgMat2: "2 Baby KING.jpg",
             title: 'Матрас Baby KING',
             param1: 'Независимый блок пружин 250 шт на кв.м.',
             param2: 'Периметр: эласт. еврокаркас из ППУ стеганный на синтепоне',
@@ -124,7 +124,7 @@ const Mattress4 = () => {
     }
 
     return (
-        <div className="container section py-5">
+        <div className="container section py-5 collection">
             <h2>Детские матрасы</h2>
             <div className="row mt-5">
             {
@@ -138,8 +138,8 @@ const Mattress4 = () => {
                                     </span> : ''
                                 }
                                 <Slider {...settings}>
-                                    <img className="w-100 mb-4" src={value.imgMat1} alt="Mattress1" />
-                                    <img className="w-100 mb-4" src={value.imgMat2} alt="Mattress2" />
+                                    <img className="mb-4" src={value.imgMat1} alt="Mattress1" />
+                                    <img className="mb-4" src={value.imgMat2} alt="Mattress2" />
                                 </Slider>
                                 <h5 className="text-center mb-3">{value.title}</h5>
                                 <ul>
