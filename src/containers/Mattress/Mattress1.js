@@ -45,7 +45,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20Orto%20Max%20sale`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -72,7 +72,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20ORTO%20MAX%20SALE-1`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -99,7 +99,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -126,7 +126,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE%20HARD-3`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -153,7 +153,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20BALANCE-P`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -180,7 +180,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20DREAM%20ZONE`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -207,7 +207,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20ENERGY`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -228,7 +228,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20SOFT`,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -255,7 +255,7 @@ const Mattress1 = () => {
                 "160*200",
                 "180*200"
             ],
-            url: ``,
+            url: `https://kaspi.kz/shop/search/?text=%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BD%D0%B0%20SUMMER%20PLUS`,
         },
     ])
 
@@ -343,7 +343,7 @@ const Mattress1 = () => {
                                 </div>
                                 <p className="text-center text-secondary fw-semibold mb-1">Бесплатная доставка</p>
                                 <div className="d-flex flex-wrap">
-                                    <a className="btn btn-sm btn-warning fw-semibold me-2 mb-2" href={value.url}>Подробнее о товаре</a>
+                                    <a className="btn btn-sm btn-warning fw-semibold me-2 mb-2">Подробнее о товаре</a>
                                     <a className="btn btn-sm btn-success fw-semibold me-2 mb-2"
                                         href={`https://wa.me/${tel}?text=Здравствуйте! Меня интересует ${value.title} размер ${value.matressSize} от ${value.newPrice} тг`}>Заказать</a>
                                     <a href={value.url}><img src="kaspi.png" width="132" alt="Kaspi" /></a>
