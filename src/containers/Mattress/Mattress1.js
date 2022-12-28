@@ -2,6 +2,7 @@ import Slider from 'react-slick'
 import { useEffect, useState } from "react"
 import './Mattress.scss'
 import data from '../../data'
+import { map } from 'jquery'
 
 let tel = '7475087701'
 
@@ -26,8 +27,8 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '110 кг',
             param4: '18 см',
-            oldPrice: '', newPrice: '47000',
             matressSize: '',
+            oldPrice: '', newPrice: '47000',
             prices: {
                 price1: '47000',
                 price2: '49000',
@@ -36,6 +37,14 @@ const Mattress1 = () => {
                 price5: '66000',
                 price6: '72000',
             },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
             url: ``,
         },
         {
@@ -45,8 +54,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '18 см',
+            matressSize: '',
             oldPrice: '49000', newPrice: '39900',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20ORTO%20MAX%20SALE-1`,
+            prices: {
+                price1: '39900',
+                price2: '43800',
+                price3: '51000',
+                price4: '57000',
+                price5: '64000',
+                price6: '72000',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -55,8 +81,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '20 см',
+            matressSize: '',
             oldPrice: '55900', newPrice: '48500',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BALANCE`,
+            prices: {
+                price1: '48500',
+                price2: '53480',
+                price3: '68670',
+                price4: '75870',
+                price5: '79890',
+                price6: '91200',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -65,8 +108,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '140 кг',
             param4: '19 см',
+            matressSize: '',
             oldPrice: '69000', newPrice: '63944',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BALANCE%20HARD-3`,
+            prices: {
+                price1: '63944',
+                price2: '67864',
+                price3: '85344',
+                price4: '95424',
+                price5: '105056',
+                price6: '114016',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -75,8 +135,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '140 кг',
             param4: '22 см',
+            matressSize: '',
             oldPrice: '77000', newPrice: '69000',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20BALANCE-P`,
+            prices: {
+                price1: '69000',
+                price2: '77000',
+                price3: '115000',
+                price4: '137000',
+                price5: '124900',
+                price6: '147000',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -85,8 +162,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '19-20 см',
+            matressSize: '',
             oldPrice: '53000', newPrice: '49624',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20DREAM%20ZONE`,
+            prices: {
+                price1: '49624',
+                price2: '54104',
+                price3: '69664',
+                price4: '76944',
+                price5: '81648',
+                price6: '92000',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -95,8 +189,25 @@ const Mattress1 = () => {
             param2: 'Твердый ЕвроКаркас',
             param3: '140 кг',
             param4: '21-22 см',
+            matressSize: '',
             oldPrice: '', newPrice: '67780',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20ENERGY`,
+            prices: {
+                price1: '67780',
+                price2: '69920',
+                price3: '86290',
+                price4: '95995',
+                price5: '108300',
+                price6: '117700',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -105,8 +216,19 @@ const Mattress1 = () => {
             param2: 'Эластичный ЕвроКаркас',
             param3: '120 кг',
             param4: '21 см',
+            matressSize: '',
             oldPrice: '', newPrice: '65000',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20SOFT`,
+            prices: {
+                price1: '65000',
+                price5: '97000',
+                price6: '105000',
+            },
+            sizes: [
+                "80*190",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
         {
             salesLeader: false, imgMat1: "1.jpg", imgMat2: "2.jpg",
@@ -115,8 +237,25 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '20 см',
+            matressSize: '',
             oldPrice: '', newPrice: '76000',
-            url: `https://wa.me/${tel}?text=Здравствуйте!%20Меня%20интересует%20Матрас%20SUMMER%20PLUS`,
+            prices: {
+                price1: '76000',
+                price2: '82300',
+                price3: '103960',
+                price4: '115360',
+                price5: '127880',
+                price6: '138850',
+            },
+            sizes: [
+                "80*190",
+                "90*190",
+                "120*200",
+                "140*200",
+                "160*200",
+                "180*200"
+            ],
+            url: ``,
         },
     ])
 
@@ -195,13 +334,11 @@ const Mattress1 = () => {
                                     <p className="text-danger me-4 fs-5 fw-bold">от {value.newPrice} тг.</p>
                                     <select className="form-select w-50 form-select-sm" aria-label="Default select example"
                                         onChange={(e) => sizeSelect(e, index) }>
-                                        <option defaultValue="Выберите размер" disabled>Выберите размер</option>
-                                        <option defaultValue="80*190">80*190</option>
-                                        <option defaultValue="90*190">90*190</option>
-                                        <option defaultValue="120*200">120*200</option>
-                                        <option defaultValue="140*200">140*200</option>
-                                        <option defaultValue="160*200">160*200</option>
-                                        <option defaultValue="180*200">180*200</option>
+                                        {
+                                            value.sizes.map((v, i) => (
+                                                <option defaultValue={v} key={i}>{v}</option>
+                                            ))
+                                        }
                                     </select>
                                 </div>
                                 <p className="text-center text-secondary fw-semibold mb-1">Бесплатная доставка</p>
