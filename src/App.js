@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.scss';
 import Header from './components/Header/Header';
 import BigSlider from './containers/BigSlider/BigSlider';
@@ -14,6 +13,7 @@ import Comment from './containers/Comment/Comment';
 import Faq from './containers/Faq/Faq';
 import Map from './containers/Map/Map';
 import Footer from './components/Footer/Footer';
+import Modal from './components/Modal/Modal';
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
       <Faq />
       <Map />
       <Footer />
+      <Modal />
     </div>
   );
 }
