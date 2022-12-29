@@ -27,7 +27,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '110 кг',
             param4: '18 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '47000',
             prices: {
                 price1: '47000',
@@ -54,7 +54,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '18 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '49000', newPrice: '39900',
             prices: {
                 price1: '39900',
@@ -81,7 +81,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '20 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '55900', newPrice: '48500',
             prices: {
                 price1: '48500',
@@ -108,7 +108,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '140 кг',
             param4: '19 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '69000', newPrice: '63944',
             prices: {
                 price1: '63944',
@@ -135,7 +135,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '140 кг',
             param4: '22 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '77000', newPrice: '69000',
             prices: {
                 price1: '69000',
@@ -162,7 +162,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '19-20 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '53000', newPrice: '49624',
             prices: {
                 price1: '49624',
@@ -189,7 +189,7 @@ const Mattress1 = () => {
             param2: 'Твердый ЕвроКаркас',
             param3: '140 кг',
             param4: '21-22 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '67780',
             prices: {
                 price1: '67780',
@@ -216,7 +216,7 @@ const Mattress1 = () => {
             param2: 'Эластичный ЕвроКаркас',
             param3: '120 кг',
             param4: '21 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '65000',
             prices: {
                 price1: '65000',
@@ -237,7 +237,7 @@ const Mattress1 = () => {
             param2: 'эласт. еврокаркас из ППУ',
             param3: '120 кг',
             param4: '20 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '76000',
             prices: {
                 price1: '76000',

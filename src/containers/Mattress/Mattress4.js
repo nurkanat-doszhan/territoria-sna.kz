@@ -22,7 +22,7 @@ const Mattress4 = () => {
             param2: 'Чехол: х/б жаккард стеганный с синтепоном',
             param3: '50 кг',
             param4: '10 см',
-            matressSize: '',
+            matressSize: '60*120',
             oldPrice: '', newPrice: '21000',
             prices: {
                 price0: '21000',
@@ -43,7 +43,7 @@ const Mattress4 = () => {
             param2: 'Чехол: х/б жаккард стеганный на синтепоне',
             param3: '70 кг',
             param4: '12 см',
-            matressSize: '',
+            matressSize: '60*120',
             oldPrice: '', newPrice: '28000',
             prices: {
                 price0: '28000',
@@ -64,7 +64,7 @@ const Mattress4 = () => {
             param2: 'Периметр: эласт. еврокаркас из ППУ стеганный на синтепоне',
             param3: 'до 100 кг',
             param4: '13 см',
-            matressSize: '',
+            matressSize: '60*120',
             oldPrice: '', newPrice: '35000',
             prices: {
                 price0: '35000',

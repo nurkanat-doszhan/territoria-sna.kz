@@ -22,7 +22,7 @@ const Mattress3 = () => {
             param2: 'Металлический каркас',
             param3: '90 кг',
             param4: '17 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '33200',
             prices: {
                 price1: '33200',
@@ -49,7 +49,7 @@ const Mattress3 = () => {
             param2: 'Усиленный металлический каркас',
             param3: '140 кг',
             param4: '21 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '42930',
             prices: {
                 price1: '42930',
@@ -76,7 +76,7 @@ const Mattress3 = () => {
             param2: 'Металлический каркас',
             param3: '160 кг',
             param4: '24 см',
-            matressSize: '',
+            matressSize: '80*190',
             oldPrice: '', newPrice: '47700',
             prices: {
                 price1: '47700',
