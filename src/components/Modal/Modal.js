@@ -9,7 +9,7 @@ const Modal = () => {
           </div>
           <div className="modal-body">
             <p>Укажите свои данные для связи</p>
-            <form>
+            <form method="post" action="../../../telegram_bot.php">
               <div className="mb-3">
                 <input className="form-control" name="name" type="text" placeholder="Ваше имя" />
               </div>
