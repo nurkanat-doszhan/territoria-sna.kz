@@ -16,10 +16,10 @@ const Modal = () => {
               <div>
                 <input className="form-control" name="phone" type="tel" placeholder="Ваш номер телефона" />
               </div>
+              <button type="submit" class="btn btn-primary">Send message</button>
             </form>
           </div>
           <div class="modal-footer justify-content-start">
-            <button type="submit" class="btn btn-primary">Send message</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
